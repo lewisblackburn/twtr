@@ -1,0 +1,20 @@
+fragment PostSnippet on Post {
+  id
+  createdAt
+  updatedAt
+  text
+  heartCount
+  heartStatus
+  retweetCount
+  retweetStatus
+  retweetId
+  retweet
+  retweeterId
+  retweeter {
+    ...RegularUser
+  }
+  creatorId
+  creator {
+    ...RegularUser
+  }
+}

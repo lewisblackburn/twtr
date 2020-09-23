@@ -1,0 +1,12 @@
+query Followers($theirId: Int!) {
+  followers(theirId: $theirId) {
+    users {
+      id
+      username
+      avatar
+      displayname
+      bio
+    }
+    amount
+  }
+}

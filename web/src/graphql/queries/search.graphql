@@ -1,0 +1,11 @@
+query Search($username: String!) {
+  search(username: $username) {
+    users {
+      id
+      username
+      avatar
+      displayname
+      bio
+    }
+  }
+}

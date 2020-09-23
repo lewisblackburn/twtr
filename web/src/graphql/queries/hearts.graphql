@@ -1,0 +1,11 @@
+query Hearts($postId: Int!) {
+  hearts(postId: $postId) {
+    users {
+      id
+      username
+      avatar
+      displayname
+      bio
+    }
+  }
+}

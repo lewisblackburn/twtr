@@ -1,0 +1,3 @@
+mutation Retweet($postId: Int!) {
+  retweet(postId: $postId)
+}

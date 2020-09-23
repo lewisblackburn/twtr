@@ -1,0 +1,12 @@
+query Following($userId: Int!) {
+  following(userId: $userId) {
+    users {
+      id
+      username
+      avatar
+      displayname
+      bio
+    }
+    amount
+  }
+}

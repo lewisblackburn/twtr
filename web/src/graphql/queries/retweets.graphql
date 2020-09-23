@@ -1,0 +1,11 @@
+query Retweets($postId: Int!) {
+  retweets(postId: $postId) {
+    users {
+      id
+      username
+      avatar
+      displayname
+      bio
+    }
+  }
+}

@@ -1,0 +1,14 @@
+fragment RegularUser on User {
+  id
+  username
+  email
+  avatar
+  banner
+  displayname
+  followStatus
+  bio
+  website
+  birthday
+  createdAt
+  updatedAt
+}
