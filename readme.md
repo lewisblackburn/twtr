@@ -7,3 +7,4 @@ This is a twitter clone
 - [x] follow functionaltiy
 - [ ] remove useless code
 - [ ] fix retweets
+- [ ] add comments
