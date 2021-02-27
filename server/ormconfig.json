@@ -3,7 +3,7 @@
   "host": "localhost",
   "port": 5432,
   "username": "postgres",
-  "password": "GT1qreed354",
+  "password": "root",
   "database": "twtr",
   "entities": ["dist/entities/*.js"],
   "migrations": ["dist/migrations/*.js"]
